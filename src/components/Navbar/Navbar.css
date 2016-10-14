@@ -1,0 +1,12 @@
+#Navbar > ul > li {
+	display:inline;
+	padding: 8px;
+}
+
+#Navbar > ul > li > a {
+	color:black;
+}
+
+#Navbar{
+	text-align: center;
+}
