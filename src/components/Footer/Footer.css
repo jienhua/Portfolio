@@ -1,0 +1,54 @@
+#footer{
+	color:#848484;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.footerTitle {
+	color: black;
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+}
+
+.icon {
+	margin: 5px;
+	color: #848484;
+}
+
+.icon:hover{
+	cursor:pointer;
+}
+
+.copyright {
+	margin-top: 20px;
+}
+
+.linkedin-square{
+
+}
+
+.linkedin-square:hover{
+	color:rgb(0,160,220);
+}
+
+.github-square{
+
+}
+
+.github-square:hover{
+	color:rgb(0,0,0);
+}
+
+.facebook-square{
+
+}
+
+.facebook-square:hover {
+	color:rgb(59,89,152);
+}
+
+.twitter-square{
+
+}
+
+.twitter-square:hover{
+	color:rgb(0, 172, 237);
+}

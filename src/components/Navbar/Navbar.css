@@ -1,4 +1,4 @@
-#Navbar > ul {
+/*#Navbar > ul {
 	padding: 14px;
 	margin-bottom: 0px;
 	box-shadow: -1px 2px 1px -1px rgba(0,0,0,0.30);
@@ -12,8 +12,24 @@
 
 #Navbar > ul > li > a {
 	color:black;
+	z-index: 9999;
+}*/
+
+.navbar-default{
+	background-color: rgba(255,255,255,0.6) !important;
+	/*background-color: red;*/
+	/*opacity: 0.6;*/
+	color:black !important;
 }
 
-#Navbar{
-	text-align: right;
+.navbar-default .navbar-brand{
+	color: black;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: black !important;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	/*color:red;*/
 }
