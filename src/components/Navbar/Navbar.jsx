@@ -13,14 +13,14 @@ const navbar = (
       </Navbar.Brand>
     </Navbar.Header>
     <Nav pullRight>
+        <LinkContainer to='/portfolio'>
+    		<NavItem eventKey={3}>PORTFOLIO</NavItem>
+    	</LinkContainer>
     	<LinkContainer to='/about'>
     		<NavItem eventKey={1}>ABOUT</NavItem>
     	</LinkContainer>
     	<LinkContainer to='/experience'>
     		<NavItem eventKey={2}>EXPERIENCE</NavItem>
-    	</LinkContainer>
-    	<LinkContainer to='/portfolio'>
-    		<NavItem eventKey={3}>PORTFOLIO</NavItem>
     	</LinkContainer>
     </Nav>
   </Navbar>

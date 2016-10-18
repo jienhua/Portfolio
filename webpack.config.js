@@ -29,7 +29,12 @@ module.exports = {
         test: /\.(woff|png|jpg|gif)$/,
         exclude: /node_modules/,
         loader: 'url-loader'
-      }  
+      },
+      {
+        test: /\.json$/,
+        exclude: /node_modules/,
+        loader: 'json-loader'
+      }
     ]
   },
 

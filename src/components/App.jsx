@@ -6,19 +6,23 @@ import Navbar from './Navbar/Navbar'
 import Footer from './Footer/Footer'
 
 require('./App.css')
+const data = require('../store/store.json')
 
 class App extends Component{
+
 	render() {
 		return (
 			<div id='background-image'>
 				<Navbar/>
-				<Header/>
-				{this.props.children}
-
+				{this.props.children && React.cloneElement(this.props.children, {data:data})}
 				<Footer/>
 			</div>			
 		)
 	}
+	// render() {
+	// 	return React.cloneElement(this.props.children)
+	// }
+
 }
 
 export default App

@@ -8,13 +8,16 @@ import About from './components/About/About'
 import Experience from './components/Experience/Experience'
 import Portfolio from './components/Portfolio/Portfolio'
 
+
+const routes = 	<Route path='/' component={App}>
+					<Route path='/about' component={About} />
+					<Route path='/experience' component={Experience} />
+					<Route path='/portfolio' component={Portfolio} />
+				</Route>
+
 render(
 	<Router history={hashHistory}>
-		<Route path='/' component={App}>
-			<Route path='/about' component={About} />
-			<Route path='/experience' component={Experience} />
-			<Route path='/portfolio' component={Portfolio} />
-		</Route>
+		{routes}
 	</Router>, 
 	document.getElementById('app')
 )
