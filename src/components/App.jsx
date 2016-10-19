@@ -12,7 +12,7 @@ class App extends Component{
 
 	render() {
 		return (
-			<div id='background-image'>
+			<div id='background-image' className='page-wrap'>
 				<Navbar/>
 				{this.props.children && React.cloneElement(this.props.children, {data:data})}
 				<Footer/>

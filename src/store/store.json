@@ -1,4 +1,23 @@
-{
+{	
+	"portfolio":{
+		"positions":[
+			"Web Developer",
+			"worker",
+			"worker2"
+		],
+		"filter":{
+			"filter": "All",
+			"filterOption":[
+				"All",
+				"React",
+				"Angular",
+				"Meteor"
+			]
+		},
+		"portfolio":[
+			1
+		]
+	},
 	"experience":[
 		{
 			"title": "Software Enginner",

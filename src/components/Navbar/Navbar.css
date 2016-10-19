@@ -1,25 +1,9 @@
-/*#Navbar > ul {
-	padding: 14px;
-	margin-bottom: 0px;
-	box-shadow: -1px 2px 1px -1px rgba(0,0,0,0.30);
-	z-index: 9999;
-}
-
-#Navbar > ul > li {
-	display:inline;
-	padding: 12px;
-}
-
-#Navbar > ul > li > a {
-	color:black;
-	z-index: 9999;
-}*/
-
 .navbar-default{
 	background-color: rgba(255,255,255,0.6) !important;
 	/*background-color: red;*/
 	/*opacity: 0.6;*/
 	color:black !important;
+	/*position: fixed;*/
 }
 
 .navbar-default .navbar-brand{
