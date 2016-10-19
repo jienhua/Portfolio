@@ -11,9 +11,19 @@
 }
 
 .navbar-default .navbar-nav>li>a{
-	color: black !important;
+	/*transition: 0.3s ease-out;*/
+	color: grey !important;
 }
 
 .navbar-default .navbar-nav>.active>a {
-	/*color:red;*/
+	color:red;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  	color:black !important;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	border-bottom: 4px solid black;
+  	background-color: white !important;
 }

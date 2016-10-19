@@ -1,4 +1,14 @@
 #portfolio_box{
-
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
+
+.mythumbnail > img {
+	opacity: 0.5;
+}
+
+.mythumbnail > img:hover{
+	opacity: 1;
+	cursor: pointer;
+}

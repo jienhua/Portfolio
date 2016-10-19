@@ -2,6 +2,11 @@
 	background-color: #f6f6f6;
 	color:#848484;
 	font-family: Verdana, Arial, sans-serif;
+	margin-top: 100px;
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 200px;
 }
 
 .footerTitle {
@@ -54,6 +59,3 @@
 .twitter-square:hover{
 	color:rgb(0, 172, 237);
 }
-
-
-

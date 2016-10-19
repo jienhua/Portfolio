@@ -1,4 +1,16 @@
 {	
+	"about":{
+		"basicInfo":{
+			"name": "Jien Hua / 華繼恩",
+			"from": "Taipei, Taiwan",
+			"skills":["AngularJS", "ReactJS", "NodeJS", "MySQL", "MongoDB"],
+			"favProgramLang": "Python",
+			"lang": ["English", "Mandarin Chinese", "Taiwanese"],
+			"title": "Software Enginner",
+			"school": "James Madison University",
+			"degree": "B.S. Computer Science"
+		}
+	},
 	"portfolio":{
 		"positions":[
 			"Web Developer",

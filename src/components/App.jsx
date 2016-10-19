@@ -19,10 +19,6 @@ class App extends Component{
 			</div>			
 		)
 	}
-	// render() {
-	// 	return React.cloneElement(this.props.children)
-	// }
-
 }
 
 export default App

@@ -45,6 +45,7 @@ module.exports = {
   devServer:{
     "contentBase": './dist',
     "inline": true,
+    "historyApiFallback": true
   },
 
   plugins: process.env.NODE_ENV === 'production' ?[

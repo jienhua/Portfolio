@@ -6,7 +6,6 @@ require('./Footer.css')
 
 const footer = (
 	<div id='footer'>
-		<hr/>
 		<Grid>
 			<Row className="show-grid">
 				<Col sm={3} smOffset={3}>
