@@ -6,7 +6,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 require('./Navbar.css')
 
 const navbar = (
-  <Navbar>
+  <Navbar fixedTop>
     <Navbar.Header>
       <Navbar.Brand>
         <a>Test</a>

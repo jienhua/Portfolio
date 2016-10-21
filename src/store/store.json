@@ -9,6 +9,11 @@
 			"title": "Software Enginner/Web Developer",
 			"school": "James Madison University",
 			"degree": "B.S. Computer Science"
+		},
+		"header":{
+			"pageTitle":"About",
+			"subTitle" : "",
+			"path": ""
 		}
 	},
 	"portfolio":{
@@ -26,47 +31,76 @@
 				"Meteor"
 			]
 		},
-		"portfolio":[
-			1
-		]
-	},
-	"experience":[
-		{
-			"title": "Software Enginner",
-			"company": "American Portwell Technology, Inc",
-			"date": "September 2015 - Present",
-			"location": "Fremont, CA",
-			"duties":[
-				"Developed electronic form tools for the company’s production line and customers. It gives the managers more easily to monitoring the workflows and increased efficiency.",
-				"Introduce new technologies (MEAN Stack and NoSQL). Updated and improved the old RMA system to be able to store more information and able to clearly present the statistics of the data.",
-				"Revamped the old system user interface with Twitter Bootstrap.",
-				"Increase the flexibility. Users are able to easily create form template according to difference requirement and apply to the system to use it right away"
-			]
+		"portfolio":{
+			"portfolio":{
+				"header":{
+					"pageTitle":"PORTFOLIO WEBSITE",
+					"subTitle": "Portfolio website - Signle page application",
+					"path":"portfolio"
+				},
+				"buildUsd": ["ReactJS","NodeJS", "Webpack"],
+				"img": "./image/portfolio/temp.png"
+			},
+			"temp":{
+				"header":{
+					"pageTitle": "temp",
+					"subTitle": "this is temp",
+					"path" : "temp"
+				},
+				"buildUsd" : ["temp"],
+				"img": "./image/portfolio/temp.png"
+			}
 		},
-		{
-			"title": "Sales Associate",
-			"company": "UNIQLO",
-			"date": "July 2014 - September 2015",
-			"location": "Milpitas, CA",
-			"duties":[
-				"Provided great customer service by listening to customer and finding products that meet their needs.",
-				"Implemented layout changes according to the store layout plan and the instructions.",
-				"Helped open two new Uniqlo store in the East Bay Area (Great Mall, and Stoneridge Mall )",
-				"Worked all shift assigned including overnight shift, weekends, and holidays."
-			]
-		},
-		{
-			"title": "Cashier",
-			"company": "J Sweet Bakery",
-			"date": "Augues 2013 - December 2013",
-			"location": "Irvine, CA",
-			"duties":[
-				"Handing the cash transaction. Receive payment by cash or credit card.",
-				"Checking daily cash account. Check twice a day, before open and after night shift.",
-				"Guiding and solving question/problem from customer or our self. As well as solving unexpected problem.",
-				"Helping store get ready for open. Packing the breads and cleaning the store.",
-				"Answering the phone order, place customer’s orders by using English or Chinese Mandarin."
-			]
+		"header":{
+			"pageTitle": "PORTFOLIO",
+			"subTitle" : "",
+			"path": ""
 		}
-	]
+	},
+	"experience":{
+		"header":{
+			"pageTitle":"EXPERIENCE",
+			"subTitle": "Working Experience",
+			"path":""
+		},
+		"experience":[
+			{
+				"title": "Software Enginner",
+				"company": "American Portwell Technology, Inc",
+				"date": "September 2015 - Present",
+				"location": "Fremont, CA",
+				"duties":[
+					"Developed electronic form tools for the company’s production line and customers. It gives the managers more easily to monitoring the workflows and increased efficiency.",
+					"Introduce new technologies (MEAN Stack and NoSQL). Updated and improved the old RMA system to be able to store more information and able to clearly present the statistics of the data.",
+					"Revamped the old system user interface with Twitter Bootstrap.",
+					"Increase the flexibility. Users are able to easily create form template according to difference requirement and apply to the system to use it right away"
+				]
+			},
+			{
+				"title": "Sales Associate",
+				"company": "UNIQLO",
+				"date": "July 2014 - September 2015",
+				"location": "Milpitas, CA",
+				"duties":[
+					"Provided great customer service by listening to customer and finding products that meet their needs.",
+					"Implemented layout changes according to the store layout plan and the instructions.",
+					"Helped open two new Uniqlo store in the East Bay Area (Great Mall, and Stoneridge Mall )",
+					"Worked all shift assigned including overnight shift, weekends, and holidays."
+				]
+			},
+			{
+				"title": "Cashier",
+				"company": "J Sweet Bakery",
+				"date": "Augues 2013 - December 2013",
+				"location": "Irvine, CA",
+				"duties":[
+					"Handing the cash transaction. Receive payment by cash or credit card.",
+					"Checking daily cash account. Check twice a day, before open and after night shift.",
+					"Guiding and solving question/problem from customer or our self. As well as solving unexpected problem.",
+					"Helping store get ready for open. Packing the breads and cleaning the store.",
+					"Answering the phone order, place customer’s orders by using English or Chinese Mandarin."
+				]
+			}
+		]
+	}
 }

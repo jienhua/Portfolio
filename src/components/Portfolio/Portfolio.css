@@ -1,14 +1,21 @@
-#portfolio_box{
+#portfolio_body{
 	padding-left: 100px;
 	padding-right: 100px;
 }
 
 
-.mythumbnail > img {
+.mythumbnail > div > img {
 	opacity: 0.5;
+	border-style: none;
+	padding: 0px;
+	border-radius: 0px;
 }
 
-.mythumbnail > img:hover{
+.mythumbnail > div > img:hover{
 	opacity: 1;
 	cursor: pointer;
+}
+
+.mythumbnail > .caption {
+	padding: 5px;
 }

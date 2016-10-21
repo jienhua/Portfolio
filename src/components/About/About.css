@@ -2,5 +2,9 @@
 	font-size: 14px;
 	margin-right: 4px;
 	color:#848484;
-	
+}
+
+.about-body{
+	padding-right: 100px;
+	padding-left: 100px;
 }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Grid, Row, Col} from 'react-bootstrap'
+import {Grid, Row, Col, Glyphicon} from 'react-bootstrap'
 import FontAwesome from 'react-fontawesome'
 
 require('./Footer.css')
@@ -9,10 +9,10 @@ const footer = (
 		<Grid>
 			<Row className="show-grid">
 				<Col sm={3} smOffset={3}>
-					<h4 className='footerTitle'>Contact Info</h4>
-					<h5>Loc: Fremont, California USA</h5>
-					<h5>E: jien8013@hotmail.com</h5>
-					<h5>T: (510) 320-4552</h5>
+					<h4 className='footerTitle'>Contact</h4>
+					<h5><Glyphicon glyph="map-marker"/> Fremont, California USA</h5>
+					<h5><Glyphicon glyph="envelope"/> jien8013@hotmail.com</h5>
+					<h5><Glyphicon glyph="phone"/> (510) 320-4552</h5>
 				</Col>
 				<Col sm={5} smOffset={1}>
 					<h4 className='footerTitle'>Follow Me on</h4>
