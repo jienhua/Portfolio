@@ -11,9 +11,9 @@ class Header extends Component{
 	}
 
 	getPath(){
-		let pathname = window.location.pathname.substr(1).split('/').join('  /  ')
-		if(this.props.headerData.path)
-			return (<p>{pathname}  /  <strong>{this.props.headerData.path}</strong></p>)
+		// let pathname = window.location.pathname.substr(1).split('/').join('  /  ')
+		// if(this.props.headerData.path)
+		// 	return (<p>{pathname}  /  <strong>{this.props.headerData.path}</strong></p>)
 	}
 
 	render() {

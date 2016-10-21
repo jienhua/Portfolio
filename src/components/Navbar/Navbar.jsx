@@ -9,7 +9,7 @@ const navbar = (
   <Navbar fixedTop>
     <Navbar.Header>
       <LinkContainer to='/portfolio'>
-        <Navbar.Brand>TEST</Navbar.Brand>
+        <Navbar.Brand>JIEN HUA</Navbar.Brand>
       </LinkContainer>
     </Navbar.Header>
     <Nav pullRight>

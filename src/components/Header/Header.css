@@ -4,6 +4,7 @@
 	/*color:red;*/
 	padding-top: 35px;
 	padding-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 #header > h1 {
@@ -13,8 +14,8 @@
 }
 
 #header-body {
-	padding-left: 100px;
-	padding-right: 100px;
+/*	padding-left: 100px;
+	padding-right: 100px;*/
 }
 
 .alignleft {

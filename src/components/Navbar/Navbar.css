@@ -19,12 +19,13 @@
 }
 
 .navbar-default .navbar-brand{
-	color: black;
+	color: grey;
 	padding-top: 24px;
 	padding-bottom: 22px;
 }
 
 .navbar-default .navbar-brand:hover{
+	color:black;
 	cursor: pointer;
 }
 

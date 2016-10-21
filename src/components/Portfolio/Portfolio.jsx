@@ -14,13 +14,13 @@ class Portfolio extends Component {
 		this.handleClick = this.handleClick.bind(this)
 	}
 
-	handleClick(key){
-		let pathname = window.location.pathname
-		if(pathname === '/'){
-			pathname = 'portfolio'
-		}
-		pathname = pathname.concat('/').concat(key)
-		browserHistory.push(pathname)
+	handleClick(path){
+		// let pathname = window.location.pathname
+		// if(pathname === '/'){
+		// 	pathname = 'portfolio'
+		// }
+		// pathname = pathname.concat('/').concat(key)
+		browserHistory.push(path)
 	}
 
 	render() {
@@ -29,7 +29,7 @@ class Portfolio extends Component {
 				<Header headerData={this.props.data.portfolio.header}/>
 				<div className='container' id='portfolio_body'>
 					<hr/>
-					<Grid>
+					<Grid id='grid'>
 						{Object.keys(this.props.data.portfolio.portfolio).map((key, index)=>{
 							const item = this.props.data.portfolio.portfolio[key]
 							return (

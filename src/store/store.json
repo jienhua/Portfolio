@@ -11,7 +11,7 @@
 			"degree": "B.S. Computer Science"
 		},
 		"header":{
-			"pageTitle":"About",
+			"pageTitle":"ABOUT ME",
 			"subTitle" : "",
 			"path": ""
 		}
@@ -34,9 +34,9 @@
 		"portfolio":{
 			"portfolio":{
 				"header":{
-					"pageTitle":"PORTFOLIO WEBSITE",
-					"subTitle": "Portfolio website - Signle page application",
-					"path":"portfolio"
+					"pageTitle":"PERSONAL PORTFOLIO",
+					"subTitle": "Portfolio website - SPA with ReactJS",
+					"path":"/portfolio/portfolio"
 				},
 				"buildUsd": ["ReactJS","NodeJS", "Webpack"],
 				"img": "./image/portfolio/temp.png"
@@ -45,14 +45,14 @@
 				"header":{
 					"pageTitle": "temp",
 					"subTitle": "this is temp",
-					"path" : "temp"
+					"path" : "/portfolio/temp"
 				},
 				"buildUsd" : ["temp"],
 				"img": "./image/portfolio/temp.png"
 			}
 		},
 		"header":{
-			"pageTitle": "PORTFOLIO",
+			"pageTitle": "My Works",
 			"subTitle" : "",
 			"path": ""
 		}
