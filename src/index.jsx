@@ -15,6 +15,7 @@ const routes = 	<Route path='/' component={App}>
 					<Route path='/experience' component={Experience} />
 					<Route path='/portfolio' component={Portfolio} />
 					<Route path='/portfolio/:projectName' component={Project}/>
+					<Route path='*' component={Portfolio}/>
 				</Route>
 
 render(

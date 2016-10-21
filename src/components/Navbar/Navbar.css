@@ -24,6 +24,10 @@
 	padding-bottom: 22px;
 }
 
+.navbar-default .navbar-brand:hover{
+	cursor: pointer;
+}
+
 .navbar-default .navbar-nav>li>a{
 	/*transition: 0.3s ease-out;*/
 	color: grey !important;

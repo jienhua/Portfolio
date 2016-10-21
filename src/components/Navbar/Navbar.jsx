@@ -8,19 +8,19 @@ require('./Navbar.css')
 const navbar = (
   <Navbar fixedTop>
     <Navbar.Header>
-      <Navbar.Brand>
-        <a>Test</a>
-      </Navbar.Brand>
+      <LinkContainer to='/portfolio'>
+        <Navbar.Brand>TEST</Navbar.Brand>
+      </LinkContainer>
     </Navbar.Header>
     <Nav pullRight>
-        <LinkContainer to='/portfolio'>
-    		<NavItem eventKey={3}>PORTFOLIO</NavItem>
+      <LinkContainer to='/portfolio'>
+    		<NavItem eventKey={1}>PORTFOLIO</NavItem>
     	</LinkContainer>
     	<LinkContainer to='/about'>
-    		<NavItem eventKey={1}>ABOUT</NavItem>
+    		<NavItem eventKey={2}>ABOUT</NavItem>
     	</LinkContainer>
     	<LinkContainer to='/experience'>
-    		<NavItem eventKey={2}>EXPERIENCE</NavItem>
+    		<NavItem eventKey={3}>EXPERIENCE</NavItem>
     	</LinkContainer>
     </Nav>
   </Navbar>
