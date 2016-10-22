@@ -42,10 +42,6 @@
 	transition: all 0.15s linear;
 }
 
-.navbar-default .navbar-nav>.active>a {
-	color:red;
-}
-
 .navbar-default .navbar-nav>li>a:hover{
   	color:black !important;
   	box-shadow: inset 0px -5px black;
@@ -53,4 +49,32 @@
 
 .navbar-default .navbar-nav>.active>a {
   	background-color: white !important;
+}
+
+@media only screen and (max-width: 768px){
+
+.navbar-default .navbar-nav>li>a:hover{
+  	color:black !important;
+  	box-shadow: inset 5px 0px black;
+  	padding-left: 20px;
+}
+
+.navbar-default .navbar-nav>li > a {
+	/*color:red !important;*/
+	padding: 10px 10px ;
+}
+
+.navbar-default .navbar-toggle {
+    -webkit-transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	-o-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+	border:none;
+}
+
+.navbar-default .navbar-toggle:hover{
+	color: white;
+	border-radius: 0px;
+}
+
 }
