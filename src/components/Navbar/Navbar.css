@@ -35,7 +35,11 @@
 	padding-right:10px;
 	padding-left:10px;
 	padding-top: 24px;
-	padding-bottom: 22px;
+	padding-bottom: 24px;
+	-webkit-transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	-o-transition: all 0.15s linear;
+	transition: all 0.15s linear;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -44,9 +48,9 @@
 
 .navbar-default .navbar-nav>li>a:hover{
   	color:black !important;
+  	box-shadow: inset 0px -5px black;
 }
 
 .navbar-default .navbar-nav>.active>a {
-	border-bottom: 4px solid black;
   	background-color: white !important;
 }
