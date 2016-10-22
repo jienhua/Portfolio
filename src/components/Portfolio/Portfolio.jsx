@@ -33,7 +33,7 @@ class Portfolio extends Component {
 						{Object.keys(this.props.data.portfolio.portfolio).map((key, index)=>{
 							const item = this.props.data.portfolio.portfolio[key]
 							return (
-									<Col  className='mythumbnail' key={index} xs={3} sm={4}>
+									<Col  className='mythumbnail' key={index} sm={6} md={3}>
 										<div onClick={this.handleClick.bind(null, item.header.path)}>
 											<Image src={item.img} alt='t1' thumbnail />
 										</div>

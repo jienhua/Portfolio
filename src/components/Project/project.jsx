@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import Header from '../Header/Header'
 
+require('./project.css')
+
 class Project extends Component {
 
 	componentWillMount(){
@@ -15,7 +17,7 @@ class Project extends Component {
 		return (
 			<div>
 				<Header headerData={this.state.header}/>
-				<div className='container'>
+				<div className='container' id='project-body'>
 					<h2>this is project page</h2>
 					<h2>{this.props.params.projectName}</h2>
 				</div>

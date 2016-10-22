@@ -72,9 +72,10 @@
 	border:none;
 }
 
-.navbar-default .navbar-toggle:hover{
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
 	color: white;
 	border-radius: 0px;
 }
+
 
 }
