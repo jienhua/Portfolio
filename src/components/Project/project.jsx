@@ -10,7 +10,7 @@ class Project extends Component {
 		const leng = pathname.length
 		const currnet = pathname[leng-1]
 		this.state = this.props.data.portfolio.portfolio[currnet]
-		console.log(this.state.img)
+		
 	}
 
 	render() {
