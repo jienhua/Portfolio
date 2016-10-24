@@ -4,7 +4,8 @@
   "description": "Practice ReactJS by making a personal portfolio",
   "main": "index.jsx",
   "scripts": {
-    "start": "webpack && node server.js",
+    "build": "webpack",
+    "start": "node server.js",
     "start:test": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:dev": "webpack-dev-server",
     "start:prod": "webpack && node server.js"
