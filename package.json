@@ -5,7 +5,7 @@
   "main": "index.jsx",
   "scripts": {
     "build": "webpack",
-    "start": "webpack && node server.js",
+    "start": "node server.js",
     "start:test": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:dev": "webpack-dev-server",
     "start:prod": "webpack && node server.js"
