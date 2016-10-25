@@ -7,4 +7,15 @@
 .about-body{
 	/*padding-right: 100px;
 	padding-left: 100px;*/
+	min-height: 500px;
+}
+
+p {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#box-img{
+	max-height: 350px;
+
+
 }

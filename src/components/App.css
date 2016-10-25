@@ -16,5 +16,17 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 160px;
   padding-top: 70px;
+  clear: both;
 }
 
+@media only screen and (max-width: 768px){
+
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 300px !important;
+    padding-top: 70px !important;
+    clear: both !important;
+    background-color: grey;
+  }
+
+}

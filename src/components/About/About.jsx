@@ -1,22 +1,26 @@
 import React, {Component} from 'react'
-import {Grid, Row, Col} from 'react-bootstrap'
+import {Grid, Row, Col, Image} from 'react-bootstrap'
 import Header from '../Header/Header'
+
 require('./About.css')
 
 class About extends Component{
 	render(){
 		return (
-			<div className="about-body">
+			<div>
 				<Header headerData={this.props.data.about.header} />
-				<div className='container'>
+				<div className="about-body container">
 					<hr/>
 					<Grid>
 						<Row>
-							<Col xs={6}>
+							<Col sm={5} pullRight align-right alignRight>
+								<Image id='box-img' src={this.props.data.about.basicInfo.img} alt='thinkOutSideOfBox' responsive/>	
+							</Col>
+							<Col sm={7}>
 								<p>
 								My name is {this.props.data.about.basicInfo.name}.<br/>
 								I am a {this.props.data.about.basicInfo.title}.<br/><br/>
-								My favorite programming language is {this.props.data.about.basicInfo.favProgramLang}.<br/>
+								My favorite programming language is {this.props.data.about.basicInfo.favProgramLang}.<br/><br/>
 								I have experience working with _<br/>
 								{this.props.data.about.basicInfo.skills.map((skill, index) =>{
 									return <spam key={index} className='skill'> <small>#{skill}</small> </spam>
@@ -29,8 +33,6 @@ class About extends Component{
 									And always trying to find a better way to solving the question.<br/>
 									Because long, !smart, and repeatedly are just not for me.<br/>
 								</p>	
-							</Col>
-							<Col xs={6}>
 							</Col>
 						</Row>
 					</Grid>	

@@ -8,7 +8,8 @@
 			"lang": ["English", "Mandarin Chinese", "Taiwanese"],
 			"title": "Software Enginner/Web Developer",
 			"school": "James Madison University",
-			"degree": "B.S. Computer Science"
+			"degree": "B.S. Computer Science",
+			"img":"./image/portfolio/quote-chalk-think-words.jpg"
 		},
 		"header":{
 			"pageTitle":"ABOUT ME",
