@@ -32,6 +32,7 @@ class Portfolio extends Component {
 	render() {
 		return (
 			<div>
+				<pre>{JSON.stringify(this.props.data, undefined,2)}</pre>
 				<Header headerData={this.getHeader()}/>
 				<div className='container' id='portfolio_body'>
 					<hr/>
