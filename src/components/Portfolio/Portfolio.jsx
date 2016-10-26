@@ -23,16 +23,12 @@ class Portfolio extends Component {
 
 	getHeader(){
 		const pathname = window.location.pathname.substr(1)
-		// console.log(pathname)
-
 		return this.props.data.header[pathname]
-		// <Header headerData={this.getHeader()}/>
 	}
 
 	render() {
 		return (
 			<div>
-				<pre>{JSON.stringify(this.props.data, undefined,2)}</pre>
 				<Header headerData={this.getHeader()}/>
 				<div className='container' id='portfolio_body'>
 					<hr/>
