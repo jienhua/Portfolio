@@ -1,0 +1,7 @@
+.skill-bar{
+	margin-top: 20px;
+	text-align: center;
+}
+.skill-bar > spam {
+	margin-right: 20px;
+}

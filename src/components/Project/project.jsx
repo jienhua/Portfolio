@@ -29,7 +29,6 @@ class Project extends Component {
 			<div>
 				<Header headerData={this.getHeader()}/>
 				<div className='container' id='project-body'>
-					<hr/>
 					{this.getTemplate()}
 				</div>
 			</div>
