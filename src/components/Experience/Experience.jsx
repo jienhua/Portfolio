@@ -8,19 +8,17 @@ class Experience extends Component{
 	constructor(){
 		super()
 		this.getHeader = this.getHeader.bind(this)
-		console.log(window.location.pathname.substr(1))
 	}
 
 	getHeader(){
 		const pathname = window.location.pathname.substr(1)
 		return this.props.data.header[pathname]
-		// <Header headerData={this.getHeader()} />
 	}
 	
 	render() {
 		return (
 			<div>
-				
+				<Header headerData={this.getHeader()} />
 				<div id='exp-body' className='container'>
 					<hr/>
 					{this.props.data.experience.experience.map((exp,index) => {
