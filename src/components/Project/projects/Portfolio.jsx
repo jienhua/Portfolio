@@ -5,7 +5,7 @@ require('./common.css')
 
 const Portfolio = (
 	<div>
-		<Image className='project-head' src='../image/projects/portfolio/head.JPG' thumbnail/>
+		<Image className='project-head' src='../image/projects/portfolio/head.jpg' thumbnail/>
 		<br/>
 		<div className='skill-bar'>
 			<spam className='skill'>#ReactJS</spam> 
