@@ -31,11 +31,8 @@ class About extends Component{
 								<p>
 								My name is {this.props.data.about.basicInfo.name}.<br/>
 								I am a {this.props.data.about.basicInfo.title}.<br/><br/>
-								My favorite programming language is {this.props.data.about.basicInfo.favProgramLang}.<br/><br/>
-								I have experience working with _<br/>
-								{this.props.data.about.basicInfo.skills.map((skill, index) =>{
-									return <spam key={index} className='skill'> <small>#{skill}</small> </spam>
-								})}
+								My favorite programming language is {this.props.data.about.basicInfo.favProgramLang}.<br/>
+								I am fluent in {this.props.data.about.basicInfo.lang.join(', ')}.
 								</p>
 								<hr/>
 								<p>

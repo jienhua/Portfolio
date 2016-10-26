@@ -19,6 +19,10 @@ body {
   clear: both;
 }
 
+p{
+  font-family: Verdana, Arial, sans-serif;
+}
+
 .grid{
   padding: 0px;
   width: 100%;

@@ -1,5 +1,6 @@
 #footer{
 	/*background-color: #f6f6f6;*/
+
 	background-color: black;
 	color:#848484;
 	font-family: Verdana, Arial, sans-serif;
@@ -12,7 +13,8 @@
 
 .footerTitle {
 	color: white;
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	/*font-family: 'Droid Serif', Verdana, Arial, sans-serif;*/
+	font-family: Montserrat, sans-serif;
 }
 
 .icon {

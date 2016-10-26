@@ -59,8 +59,8 @@ const Portfolio = (
 
 		<hr/>
 		<h4>SOURCE</h4>
-		<p>Github: https://github.com/jienhua/Portfolio</p>
-		<p>Demo: https://jienhua-portfolio.herokuapp.com/</p>
+		<p>Github:  <a href="https://github.com/jienhua/Portfolio" target="_blank">https://github.com/jienhua/Portfolio</a></p>
+		<p>Demo: <a href="https://jienhua-portfolio.herokuapp.com/" target="_blank">https://jienhua-portfolio.herokuapp.com/</a></p>
  	</div>
 )
 

@@ -6,6 +6,7 @@
 	padding-top: 35px;
 	padding-bottom: 40px;
 	margin-bottom: 50px;
+	font-family: Montserrat, sans-serif;
 }
 
 #header > h1 {
@@ -20,9 +21,11 @@
 }
 
 .alignleft {
+	font-family: Montserrat, sans-serif;
 	float: left;
 }
 
 .alignright{
+	font-family: Montserrat, sans-serif;
 	float: right;
 }

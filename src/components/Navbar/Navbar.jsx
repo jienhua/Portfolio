@@ -8,7 +8,7 @@ require('./Navbar.css')
 const navbar = (
   <Navbar fixedTop >
     <Navbar.Header>
-      <LinkContainer to='/portfolios' >
+      <LinkContainer to='/' >
         <Navbar.Brand>JIEN HUA</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle>

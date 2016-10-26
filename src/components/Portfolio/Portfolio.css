@@ -7,10 +7,11 @@
 
 
 .mythumbnail > div > img {
-	opacity: 0.5;
-	border-style: none;
+	opacity: 0.6;
+	/*border-style: none;*/
 	padding: 0px;
 	border-radius: 0px;
+
 }
 
 .mythumbnail > div > img:hover{
@@ -20,5 +21,9 @@
 
 .mythumbnail > .caption {
 	padding: 5px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.mythumbnail {
+	height: 100%;
+}
