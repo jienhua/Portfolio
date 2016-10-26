@@ -5,17 +5,6 @@ require('./Header.css')
 
 class Header extends Component{
 
-	constructor(){
-		super()
-		this.getPath = this.getPath.bind(this)
-	}
-
-	getPath(){
-		// let pathname = window.location.pathname.substr(1).split('/').join('  /  ')
-		// if(this.props.headerData.path)
-		// 	return (<p>{pathname}  /  <strong>{this.props.headerData.path}</strong></p>)
-	}
-
 	render() {
 		return (
 			<div id='header'>
