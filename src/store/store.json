@@ -10,14 +10,9 @@
 			"school": "James Madison University",
 			"degree": "B.S. Computer Science",
 			"img":"./image/portfolio/quote-chalk-think-words.jpg"
-		},
-		"header":{
-			"pageTitle":"ABOUT ME",
-			"subTitle" : "",
-			"path": ""
 		}
 	},
-	"portfolio":{
+	"portfolios":{
 		"positions":[
 			"Web Developer",
 			"worker",
@@ -34,36 +29,18 @@
 		},
 		"portfolio":{
 			"portfolio":{
-				"header":{
-					"pageTitle":"PERSONAL PORTFOLIO",
-					"subTitle": "Portfolio website - SPA with ReactJS",
-					"path":"/portfolio/portfolio"
-				},
+				"path":"/portfolios/portfolio",
 				"buildUsd": ["ReactJS","NodeJS", "Webpack"],
 				"img": "./image/portfolio/temp.png"
 			},
 			"temp":{
-				"header":{
-					"pageTitle": "temp",
-					"subTitle": "this is temp",
-					"path" : "/portfolio/temp"
-				},
+				"path" : "/portfolios/temp",
 				"buildUsd" : ["temp"],
 				"img": "./image/portfolio/temp.png"
 			}
-		},
-		"header":{
-			"pageTitle": "PORTFOLIO",
-			"subTitle" : "My Works",
-			"path": ""
 		}
 	},
 	"experience":{
-		"header":{
-			"pageTitle":"EXPERIENCE",
-			"subTitle": "Working Experience",
-			"path":""
-		},
 		"experience":[
 			{
 				"title": "Software Enginner",
@@ -103,5 +80,32 @@
 				]
 			}
 		]
+	},
+	"header":{
+		"about":{
+			"pageTitle":"ABOUT ME",
+			"subTitle" : "",
+			"path": ""
+		},
+		"portfolios":{
+			"pageTitle": "PORTFOLIO",
+			"subTitle" : "My Works",
+			"path": ""
+		},
+		"experience":{
+			"pageTitle":"EXPERIENCE",
+			"subTitle": "Working Experience",
+			"path":""
+		},
+		"portfolio":{
+			"pageTitle":"PERSONAL PORTFOLIO",
+			"subTitle": "Portfolio website - SPA with ReactJS",
+			"path":"/portfolios/portfolio"
+		},
+		"temp":{
+			"pageTitle": "temp",
+			"subTitle": "this is temp",
+			"path" : "/portfolios/temp"
+		}
 	}
 }

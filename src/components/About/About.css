@@ -4,9 +4,9 @@
 	color:#848484;
 }
 
-.about-body{
-	/*padding-right: 100px;
-	padding-left: 100px;*/
+#about-body{
+	padding-right: 100px;
+	padding-left: 100px;
 	min-height: 500px;
 }
 
@@ -16,6 +16,4 @@ p {
 
 #box-img{
 	max-height: 350px;
-
-
 }

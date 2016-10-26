@@ -1,6 +1,7 @@
 #portfolio_body{
-	/*padding-left: 100px;
-	padding-right: 100px;*/
+	padding-left: 100px;
+	padding-right: 100px;
+
 	min-height: 500px;
 }
 
@@ -21,6 +22,3 @@
 	padding: 5px;
 }
 
-#grid{
-	padding: 0px;
-}

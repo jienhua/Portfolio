@@ -12,33 +12,34 @@ class Portfolio extends Component {
 	constructor(){
 		super()
 		this.handleClick = this.handleClick.bind(this)
+		this.getHeader = this.getHeader.bind(this)
 	}
 
 	handleClick(path){
-		// let pathname = window.location.pathname
-		// if(pathname === '/'){
-		// 	pathname = 'portfolio'
-		// }
-		// pathname = pathname.concat('/').concat(key)
 		browserHistory.push(path)
+	}
+
+	getHeader(){
+		const pathname = window.location.pathname.substr(1)
+		return this.props.data.header[pathname]
 	}
 
 	render() {
 		return (
 			<div>
-				<Header headerData={this.props.data.portfolio.header}/>
+				<Header headerData={this.getHeader()}/>
 				<div className='container' id='portfolio_body'>
 					<hr/>
-					<Grid id='grid'>
-						{Object.keys(this.props.data.portfolio.portfolio).map((key, index)=>{
-							const item = this.props.data.portfolio.portfolio[key]
+					<Grid className='grid'>
+						{Object.keys(this.props.data.portfolios.portfolio).map((key, index)=>{
+							const item = this.props.data.portfolios.portfolio[key]
 							return (
 									<Col  className='mythumbnail' key={index} sm={6} md={3}>
-										<div onClick={this.handleClick.bind(null, item.header.path)}>
+										<div onClick={this.handleClick.bind(null, this.props.data.header[key].path)}>
 											<Image src={item.img} alt='t1' thumbnail />
 										</div>
 										<div className='caption'>
-											<h5>{item.header.pageTitle}</h5>
+											<h5>{this.props.data.header[key].pageTitle}</h5>
 											<p>
 												{item.buildUsd.map((i, index) =>{
 													return <spam key={index} className='skill'> <small>#{i}</small> </spam>

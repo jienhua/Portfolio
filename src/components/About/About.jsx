@@ -5,13 +5,24 @@ import Header from '../Header/Header'
 require('./About.css')
 
 class About extends Component{
+
+	constructor(){
+		super()
+		this.getHeader = this.getHeader.bind(this)
+	}
+
+	getHeader(){
+		const pathname = window.location.pathname.substr(1)
+		return this.props.data.header[pathname]
+	}
+
 	render(){
 		return (
 			<div>
-				<Header headerData={this.props.data.about.header} />
-				<div className="about-body container">
+				<Header headerData={this.getHeader()} />
+				<div className="container" id='about-body'>
 					<hr/>
-					<Grid>
+					<Grid className='grid'>
 						<Row>
 							<Col sm={5} pullRight align-right alignRight>
 								<Image id='box-img' src={this.props.data.about.basicInfo.img} alt='thinkOutSideOfBox' responsive/>	

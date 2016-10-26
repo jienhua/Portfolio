@@ -8,7 +8,7 @@ require('./Navbar.css')
 const navbar = (
   <Navbar fixedTop >
     <Navbar.Header>
-      <LinkContainer to='/portfolio' >
+      <LinkContainer to='/portfolios' >
         <Navbar.Brand>JIEN HUA</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle>
@@ -16,7 +16,7 @@ const navbar = (
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav pullRight >
-        <LinkContainer to='/portfolio'>
+        <LinkContainer to='/portfolios'>
       		<NavItem eventKey={1}>PORTFOLIO</NavItem>
       	</LinkContainer>
       	<LinkContainer to='/about'>
