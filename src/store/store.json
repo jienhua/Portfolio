@@ -31,7 +31,7 @@
 			"portfolio":{
 				"path":"/portfolios/portfolio",
 				"buildUsd": ["ReactJS","NodeJS", "Webpack"],
-				"img": "./image/projects/portfolio/thumbnail.jpg"
+				"img": "./image/projects/portfolio/store.JPG"
 			},
 			"temp":{
 				"path" : "/portfolios/temp",
