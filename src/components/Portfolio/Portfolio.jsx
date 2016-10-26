@@ -13,6 +13,8 @@ class Portfolio extends Component {
 		super()
 		this.handleClick = this.handleClick.bind(this)
 		this.getHeader = this.getHeader.bind(this)
+		const pathname = window.location.pathname.substr(1)
+		console.log(pathname)
 	}
 
 	handleClick(path){
@@ -21,13 +23,16 @@ class Portfolio extends Component {
 
 	getHeader(){
 		const pathname = window.location.pathname.substr(1)
-		return this.props.data.header[pathname]
+		console.log(pathname)
+
+		// return this.props.data.header[pathname]
+		// <Header headerData={this.getHeader()}/>
 	}
 
 	render() {
 		return (
 			<div>
-				<Header headerData={this.getHeader()}/>
+				
 				<div className='container' id='portfolio_body'>
 					<hr/>
 					<Grid className='grid'>
