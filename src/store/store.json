@@ -9,7 +9,8 @@
 			"title": "Software Enginner/Web Developer",
 			"school": "James Madison University",
 			"degree": "B.S. Computer Science",
-			"img":"./image/portfolio/quote-chalk-think-words.jpg"
+			"img":"./image/portfolio/quote-chalk-think-words.jpg",
+			"alt": "think out side of box image"
 		}
 	},
 	"portfolios":{
@@ -28,15 +29,23 @@
 			]
 		},
 		"portfolio":{
+			"ooxx":{
+				"path":"/portfolios/ooxx",
+				"buildUsd":["ReactJS", "Redux", "Socket.io"],
+				"img": "./image/portfolio/temp.png",
+				"alt": "project ooxx thumbnail"
+			},
 			"portfolio":{
 				"path":"/portfolios/portfolio",
 				"buildUsd": ["ReactJS","NodeJS", "Webpack"],
-				"img": "./image/projects/portfolio/thumbnail.JPG"
+				"img": "./image/projects/portfolio/thumbnail.JPG",
+				"alt": "project portfolio thumbnail"
 			},
 			"temp":{
 				"path" : "/portfolios/temp",
 				"buildUsd" : ["temp"],
-				"img": "./image/portfolio/temp.png"
+				"img": "./image/portfolio/temp.png",
+				"alt": "temp thumbnail"
 			}
 		}
 	},
@@ -101,6 +110,11 @@
 			"pageTitle":"PERSONAL PORTFOLIO",
 			"subTitle": "Portfolio website - SPA with ReactJS",
 			"path":"/portfolios/portfolio"
+		},
+		"ooxx":{
+			"pageTitle": "OOXX",
+			"subTitle": "Full Stack React & Redux Application",
+			"path": "/portfolios/ooxx"
 		},
 		"temp":{
 			"pageTitle": "temp",

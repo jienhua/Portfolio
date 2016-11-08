@@ -25,7 +25,7 @@ class About extends Component{
 					<Grid className='grid'>
 						<Row>
 							<Col sm={5} pullRight align-right alignRight>
-								<Image id='box-img' src={this.props.data.about.basicInfo.img} alt='thinkOutSideOfBox' responsive/>	
+								<Image id='box-img' src={this.props.data.about.basicInfo.img} alt={this.props.data.about.basicInfo.alt} responsive/>	
 							</Col>
 							<Col sm={7}>
 								<p>

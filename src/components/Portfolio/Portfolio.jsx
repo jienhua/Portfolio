@@ -41,7 +41,7 @@ class Portfolio extends Component {
 							return (
 									<Col  className='mythumbnail' key={index} sm={6} md={3}>
 										<div onClick={this.handleClick.bind(null, this.props.data.header[key].path)}>
-											<Image src={item.img} alt='t1' thumbnail responsive/>
+											<Image src={item.img} alt={item.alt} thumbnail responsive/>
 										</div>
 										<div className='caption'>
 											<h5>{this.props.data.header[key].pageTitle}</h5>
