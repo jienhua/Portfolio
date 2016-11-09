@@ -8,6 +8,7 @@ class Header extends Component{
 	constructor(){
 		super()
 		this.getPath = this.getPath.bind(this)
+		this.getDate = this.getDate.bind(this)
 	}
 
 	getPath(){
@@ -16,6 +17,10 @@ class Header extends Component{
 		// 	return (<p>{pathname}  /  <strong>{this.props.headerData.path}</strong></p>)
 	}
 	
+	getDate(){
+		return this.props.headerData.date || ''
+	}
+
 	render() {
 		return (
 			<div id='header'>
@@ -25,6 +30,7 @@ class Header extends Component{
 						<p className='alignleft'>{this.props.headerData.subTitle}</p>
 						<div className='alignright'>
 							{this.getPath()} 
+							{this.getDate()? <div><i className='fa fa-pencil-square-o'></i> {this.getDate()}</div>:""}
 						</div>
 					</div>
 				</div>

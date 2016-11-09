@@ -32,7 +32,7 @@
 			"ooxx":{
 				"path":"/portfolios/ooxx",
 				"buildUsd":["ReactJS", "Redux", "Socket.io"],
-				"img": "./image/portfolio/temp.png",
+				"img": "./image/projects/ooxx/thumbnail.JPG",
 				"alt": "project ooxx thumbnail"
 			},
 			"portfolio":{
@@ -109,12 +109,14 @@
 		"portfolio":{
 			"pageTitle":"PERSONAL PORTFOLIO",
 			"subTitle": "Portfolio website - SPA with ReactJS",
-			"path":"/portfolios/portfolio"
+			"path":"/portfolios/portfolio",
+			"date": "10/26/2016"
 		},
 		"ooxx":{
 			"pageTitle": "OOXX",
-			"subTitle": "Full Stack React & Redux Application",
-			"path": "/portfolios/ooxx"
+			"subTitle": "Full Stack React Application with Redux",
+			"path": "/portfolios/ooxx",
+			"date": "11/8/2016"
 		},
 		"temp":{
 			"pageTitle": "temp",
