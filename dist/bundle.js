@@ -46431,7 +46431,7 @@
 				_react2.default.createElement(
 					_reactBootstrap.Col,
 					{ sm: 4, smPush: 8 },
-					_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'fpic1', src: '../image/projects/ooxx/fpic1.JPG', thumbnail: true })
+					_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'fpic1', src: '../image/projects/ooxx/fpic1.jpg', thumbnail: true })
 				),
 				_react2.default.createElement(
 					_reactBootstrap.Col,
