@@ -44,7 +44,7 @@ const ooxx = (
 
 			<Row>
 				<Col sm={4} smPush={8}>
-					<Image className='project-head' alt='fpic1' src='../image/projects/ooxx/fpic1.JPG' thumbnail/>
+					<Image className='project-head' alt='fpic1' src='../image/projects/ooxx/fpic1.jpg' thumbnail/>
 				</Col>
 				<Col sm={8} smPull={4}>
 					<h5><strong>Playing board</strong></h5>
