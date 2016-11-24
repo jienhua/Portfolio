@@ -46820,7 +46820,7 @@
 		_react2.default.createElement(
 			'div',
 			{ className: 'container-fluid' },
-			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', src: '../image/projects/PersonAPI/thumbnail.JPG', thumbnail: true }),
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', src: '../image/projects/PersonAPI/thumbnail2.JPG', thumbnail: true }),
 			_react2.default.createElement('br', null),
 			_react2.default.createElement(
 				'div',

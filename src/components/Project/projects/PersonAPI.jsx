@@ -5,7 +5,7 @@ import {Image, Row, Col} from 'react-bootstrap'
 const PersonAPI = (
 	<div>
 		<div className='container-fluid'>
-			<Image className='project-head' src='../image/projects/PersonAPI/thumbnail.JPG' thumbnail/>
+			<Image className='project-head' src='../image/projects/PersonAPI/thumbnail2.JPG' thumbnail/>
 			<br/>
 			<div className='skill-bar'>
 				<spam className='skill'>#ReactJS</spam> 
