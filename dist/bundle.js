@@ -46820,7 +46820,7 @@
 		_react2.default.createElement(
 			'div',
 			{ className: 'container-fluid' },
-			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', src: '../image/projects/PersonAPI/thumbnail2.JPG', thumbnail: true }),
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', src: '../image/projects/personAPI/thumbnail.JPG', thumbnail: true }),
 			_react2.default.createElement('br', null),
 			_react2.default.createElement(
 				'div',
@@ -46932,12 +46932,12 @@
 				_react2.default.createElement(
 					_reactBootstrap.Col,
 					{ sm: 6 },
-					_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'notConnect', src: '../image/projects/PersonAPI/notConnect.JPG', thumbnail: true })
+					_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'notConnect', src: '../image/projects/personAPI/notConnect.JPG', thumbnail: true })
 				),
 				_react2.default.createElement(
 					_reactBootstrap.Col,
 					{ sm: 6 },
-					_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'connected', src: '../image/projects/PersonAPI/connected.JPG', thumbnail: true })
+					_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'connected', src: '../image/projects/personAPI/connected.JPG', thumbnail: true })
 				)
 			),
 			_react2.default.createElement(
@@ -46976,7 +46976,7 @@
 				null,
 				'When user hit the Search Button without the input the application will return all date from the database. User can also use person ID to search for a person.'
 			),
-			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'personlist', src: '../image/projects/PersonAPI/personlist.JPG', thumbnail: true }),
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'personlist', src: '../image/projects/personAPI/personlist.JPG', thumbnail: true }),
 			_react2.default.createElement(
 				'h5',
 				null,
@@ -47027,7 +47027,7 @@
 				null,
 				'User will be able to edit a new person with edit button. A edit modal will pop up for edit person.'
 			),
-			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'edit', src: '../image/projects/PersonAPI/edit.JPG', thumbnail: true }),
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'edit', src: '../image/projects/personAPI/edit.JPG', thumbnail: true }),
 			_react2.default.createElement(
 				'h5',
 				null,
@@ -47053,7 +47053,7 @@
 				null,
 				'User will be able to delete a new person with delete button. A delete modal will pop up for confirm delete action.'
 			),
-			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'delete', src: '../image/projects/PersonAPI/delete.JPG', thumbnail: true })
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'delete', src: '../image/projects/personAPI/delete.JPG', thumbnail: true })
 		),
 		_react2.default.createElement(
 			'div',
