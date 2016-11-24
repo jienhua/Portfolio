@@ -45349,6 +45349,16 @@
 				]
 			},
 			"portfolio": {
+				"personapi": {
+					"path": "/portfolios/personapi",
+					"buildUsd": [
+						"ReactJS",
+						"Redux",
+						"MongoDB"
+					],
+					"img": "./image/projects/personAPI/thumbnail2.JPG",
+					"alt": "project fullstack api"
+				},
 				"ooxx": {
 					"path": "/portfolios/ooxx",
 					"buildUsd": [
@@ -45452,6 +45462,12 @@
 				"pageTitle": "temp",
 				"subTitle": "this is temp",
 				"path": "/portfolios/temp"
+			},
+			"personapi": {
+				"pageTitle": "PersonAPI",
+				"subTitle": "Full Stack React Application with API",
+				"path": "/portfolios/personapi",
+				"date": "11/23/2016"
 			}
 		}
 	};
@@ -45974,7 +45990,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	__webpack_require__(507);
+	__webpack_require__(508);
 
 	var Project = function (_Component) {
 		_inherits(Project, _Component);
@@ -46046,12 +46062,17 @@
 
 	var _OOXX2 = _interopRequireDefault(_OOXX);
 
+	var _PersonAPI = __webpack_require__(507);
+
+	var _PersonAPI2 = _interopRequireDefault(_PersonAPI);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var projects = {
 		portfolio: _Portfolio2.default,
 		temp: _Temp2.default,
-		ooxx: _OOXX2.default
+		ooxx: _OOXX2.default,
+		personapi: _PersonAPI2.default
 	};
 
 	exports.default = projects;
@@ -46779,10 +46800,459 @@
 /* 507 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactBootstrap = __webpack_require__(229);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var PersonAPI = _react2.default.createElement(
+		'div',
+		null,
+		_react2.default.createElement(
+			'div',
+			{ className: 'container-fluid' },
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', src: '../image/projects/PersonAPI/thumbnail.JPG', thumbnail: true }),
+			_react2.default.createElement('br', null),
+			_react2.default.createElement(
+				'div',
+				{ className: 'skill-bar' },
+				_react2.default.createElement(
+					'spam',
+					{ className: 'skill' },
+					'#ReactJS'
+				),
+				_react2.default.createElement(
+					'spam',
+					{ className: 'skill' },
+					'#Redux'
+				),
+				_react2.default.createElement(
+					'spam',
+					{ className: 'skill' },
+					'#Redux-Thunk'
+				),
+				_react2.default.createElement(
+					'spam',
+					{ className: 'skill' },
+					'#Axios'
+				),
+				_react2.default.createElement(
+					'spam',
+					{ className: 'skill' },
+					'#NodeJS'
+				),
+				_react2.default.createElement(
+					'spam',
+					{ className: 'skill' },
+					'#MongoDB'
+				),
+				_react2.default.createElement(
+					'spam',
+					{ className: 'skill' },
+					'#Webpack'
+				)
+			)
+		),
+		_react2.default.createElement(
+			'div',
+			{ className: 'container-fluid' },
+			_react2.default.createElement('hr', null),
+			_react2.default.createElement(
+				'h4',
+				null,
+				'ABOUT'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'This PersonAPI project allow user to create person list. User will be able to create a new person, edit an exist person, delete an exist person, and search for a person.'
+			)
+		),
+		_react2.default.createElement(
+			'div',
+			{ className: 'container-fluid' },
+			_react2.default.createElement('hr', null),
+			_react2.default.createElement(
+				'h4',
+				null,
+				'PURPOSE'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'The purpose for this project is to helping myself get more familiar with Redux, making API calls, and handling Asynchronous calls.'
+			)
+		),
+		_react2.default.createElement(
+			'div',
+			{ className: 'container-fluid' },
+			_react2.default.createElement('hr', null),
+			_react2.default.createElement(
+				'h4',
+				null,
+				'# FUNCTIONS - API List'
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				_react2.default.createElement(
+					'strong',
+					null,
+					'Connect to Datebase'
+				)
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				'- GET ',
+				_react2.default.createElement(
+					'code',
+					null,
+					'/connectDB'
+				),
+				'  // request to connect local MongoDB'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'In order for this application to start working, it will require MongoDB up and running. Application will not auto connect to the MongoDB. User will have to connect MongoDB manually by click the localhost button on the control panel.'
+			),
+			_react2.default.createElement(
+				_reactBootstrap.Row,
+				null,
+				_react2.default.createElement(
+					_reactBootstrap.Col,
+					{ sm: 6 },
+					_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'notConnect', src: '../image/projects/PersonAPI/notConnect.JPG', thumbnail: true })
+				),
+				_react2.default.createElement(
+					_reactBootstrap.Col,
+					{ sm: 6 },
+					_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'connected', src: '../image/projects/PersonAPI/connected.JPG', thumbnail: true })
+				)
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				_react2.default.createElement(
+					'strong',
+					null,
+					'Search'
+				)
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				'- GET ',
+				_react2.default.createElement(
+					'code',
+					null,
+					'/person'
+				),
+				'  // Return All'
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				'- GET ',
+				_react2.default.createElement(
+					'code',
+					null,
+					'/person/:id'
+				),
+				' // Search for a person'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'When user hit the Search Button without the input the application will return all date from the database. User can also use person ID to search for a person.'
+			),
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'personlist', src: '../image/projects/PersonAPI/personlist.JPG', thumbnail: true }),
+			_react2.default.createElement(
+				'h5',
+				null,
+				_react2.default.createElement(
+					'strong',
+					null,
+					'Create'
+				)
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				'- POST ',
+				_react2.default.createElement(
+					'code',
+					null,
+					'/person'
+				),
+				'  // Create a new person'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'User will be able to create a new person with create button.'
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				_react2.default.createElement(
+					'strong',
+					null,
+					'Edit'
+				)
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				'- PUT ',
+				_react2.default.createElement(
+					'code',
+					null,
+					'/person/:id'
+				),
+				'  // Edit an exist person'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'User will be able to edit a new person with edit button. A edit modal will pop up for edit person.'
+			),
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'edit', src: '../image/projects/PersonAPI/edit.JPG', thumbnail: true }),
+			_react2.default.createElement(
+				'h5',
+				null,
+				_react2.default.createElement(
+					'strong',
+					null,
+					'Delete'
+				)
+			),
+			_react2.default.createElement(
+				'h5',
+				null,
+				'- DELETE ',
+				_react2.default.createElement(
+					'code',
+					null,
+					'/person/:id'
+				),
+				'  // Delete an exist person'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'User will be able to delete a new person with delete button. A delete modal will pop up for confirm delete action.'
+			),
+			_react2.default.createElement(_reactBootstrap.Image, { className: 'project-head', alt: 'delete', src: '../image/projects/PersonAPI/delete.JPG', thumbnail: true })
+		),
+		_react2.default.createElement(
+			'div',
+			{ className: 'container-fluid' },
+			_react2.default.createElement('hr', null),
+			_react2.default.createElement(
+				'h4',
+				null,
+				'STRUCTURE'
+			),
+			_react2.default.createElement(
+				_reactBootstrap.Row,
+				null,
+				_react2.default.createElement(
+					_reactBootstrap.Col,
+					{ sm: 6 },
+					_react2.default.createElement(
+						'strong',
+						null,
+						'Back-End'
+					),
+					_react2.default.createElement('hr', null),
+					_react2.default.createElement(
+						'ul',
+						null,
+						_react2.default.createElement(
+							'li',
+							null,
+							'Server',
+							_react2.default.createElement(
+								'ul',
+								null,
+								_react2.default.createElement(
+									'li',
+									null,
+									'NodeJS + ExpressJS'
+								)
+							)
+						),
+						_react2.default.createElement(
+							'li',
+							null,
+							'API',
+							_react2.default.createElement(
+								'ul',
+								null,
+								_react2.default.createElement(
+									'li',
+									null,
+									'ExpressJS'
+								)
+							)
+						),
+						_react2.default.createElement(
+							'li',
+							null,
+							'Datebase',
+							_react2.default.createElement(
+								'ul',
+								null,
+								_react2.default.createElement(
+									'li',
+									null,
+									'MongooseJS + MongoDB'
+								)
+							)
+						)
+					)
+				),
+				_react2.default.createElement(
+					_reactBootstrap.Col,
+					{ sm: 6 },
+					_react2.default.createElement(
+						'strong',
+						null,
+						'Front-End'
+					),
+					_react2.default.createElement('hr', null),
+					_react2.default.createElement(
+						'ul',
+						null,
+						_react2.default.createElement(
+							'li',
+							null,
+							'React components',
+							_react2.default.createElement(
+								'ul',
+								null,
+								_react2.default.createElement(
+									'li',
+									null,
+									'ListsPanel - display the Search Result and person list.'
+								),
+								_react2.default.createElement(
+									'li',
+									null,
+									'ControlPanel - display controlPanel, and handing lgoic such as \'connectDB\', \'create\', and \'search\'.'
+								),
+								_react2.default.createElement(
+									'li',
+									null,
+									'Header - display API status.'
+								)
+							)
+						),
+						_react2.default.createElement(
+							'li',
+							null,
+							'Redux',
+							_react2.default.createElement(
+								'ul',
+								null,
+								_react2.default.createElement(
+									'li',
+									null,
+									'reducer.js - handling client side actions'
+								),
+								_react2.default.createElement(
+									'li',
+									null,
+									'action_creators.js - create actions'
+								)
+							)
+						),
+						_react2.default.createElement(
+							'li',
+							null,
+							'Redux-Thunk and Axios',
+							_react2.default.createElement(
+								'ul',
+								null,
+								_react2.default.createElement(
+									'li',
+									null,
+									'Handing HTTP request and handling Asynchronous calls.'
+								)
+							)
+						)
+					)
+				)
+			)
+		),
+		_react2.default.createElement(
+			'div',
+			{ className: 'container-fluid' },
+			_react2.default.createElement('hr', null),
+			_react2.default.createElement(
+				'h4',
+				null,
+				'DECISION'
+			),
+			_react2.default.createElement(
+				'strong',
+				null,
+				'Handling Asynchronous Calls'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'In React, there are no standard way for handling HTTP request. So there are many different ways to choose from. I am End up with Redux-Thunk and Axios. I chose Axios becuase it is simple, easy to learn, and use. And Redux-Thunk is most popular npm package for Redux user for handing async calls.'
+			)
+		),
+		_react2.default.createElement(
+			'div',
+			{ className: 'container-fluid' },
+			_react2.default.createElement('hr', null),
+			_react2.default.createElement(
+				'h4',
+				null,
+				'SOURCE'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'Github'
+			),
+			_react2.default.createElement(
+				'p',
+				null,
+				'- Repo:  ',
+				_react2.default.createElement(
+					'a',
+					{ href: 'https://github.com/jienhua/PersonAPI', target: '_blank' },
+					'https://github.com/jienhua/PersonAPI'
+				)
+			)
+		)
+	);
+
+	exports.default = PersonAPI;
+
+/***/ },
+/* 508 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(508);
+	var content = __webpack_require__(509);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(227)(content, {});
@@ -46802,7 +47272,7 @@
 	}
 
 /***/ },
-/* 508 */
+/* 509 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(226)();

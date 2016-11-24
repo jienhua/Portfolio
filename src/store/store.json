@@ -29,6 +29,12 @@
 			]
 		},
 		"portfolio":{
+			"personapi":{
+				"path":"/portfolios/personapi",
+				"buildUsd":["ReactJS", "Redux", "MongoDB"],
+				"img":"./image/projects/personAPI/thumbnail2.JPG",
+				"alt":"project fullstack api"
+			},
 			"ooxx":{
 				"path":"/portfolios/ooxx",
 				"buildUsd":["ReactJS", "Redux", "Socket.io"],
@@ -122,6 +128,12 @@
 			"pageTitle": "temp",
 			"subTitle": "this is temp",
 			"path" : "/portfolios/temp"
+		},
+		"personapi":{
+			"pageTitle": "PersonAPI",
+			"subTitle": "Full Stack React Application with API",
+			"path": "/portfolios/personapi",
+			"date": "11/23/2016"
 		}
 	}
 }
