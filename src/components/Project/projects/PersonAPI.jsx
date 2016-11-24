@@ -5,7 +5,7 @@ import {Image, Row, Col} from 'react-bootstrap'
 const PersonAPI = (
 	<div>
 		<div className='container-fluid'>
-			<Image className='project-head' src='../image/projects/PersonAPI/thumbnail2.JPG' thumbnail/>
+			<Image className='project-head' src='../image/projects/personAPI/thumbnail.JPG' thumbnail/>
 			<br/>
 			<div className='skill-bar'>
 				<spam className='skill'>#ReactJS</spam> 
@@ -44,10 +44,10 @@ const PersonAPI = (
 			MongoDB. User will have to connect MongoDB manually by click the localhost button on the control panel.</p>
 			<Row>
 				<Col sm={6}>
-					<Image className='project-head' alt='notConnect' src='../image/projects/PersonAPI/notConnect.JPG' thumbnail/>
+					<Image className='project-head' alt='notConnect' src='../image/projects/personAPI/notConnect.JPG' thumbnail/>
 				</Col>
 				<Col sm={6}>
-					<Image className='project-head' alt='connected' src='../image/projects/PersonAPI/connected.JPG' thumbnail/>
+					<Image className='project-head' alt='connected' src='../image/projects/personAPI/connected.JPG' thumbnail/>
 				</Col>
 			</Row>
 			<h5><strong>Search</strong></h5>
@@ -56,18 +56,18 @@ const PersonAPI = (
 			<p>When user hit the Search Button without the input the application will return all date from the database.
 			User can also use person ID to search for a person.</p>
 			
-			<Image className='project-head' alt='personlist' src='../image/projects/PersonAPI/personlist.JPG' thumbnail/>
+			<Image className='project-head' alt='personlist' src='../image/projects/personAPI/personlist.JPG' thumbnail/>
 			<h5><strong>Create</strong></h5>
 			<h5>- POST <code>/person</code>  // Create a new person</h5>
 			<p>User will be able to create a new person with create button.</p>
 			<h5><strong>Edit</strong></h5>
 			<h5>- PUT <code>/person/:id</code>  // Edit an exist person</h5>
 			<p>User will be able to edit a new person with edit button. A edit modal will pop up for edit person.</p>
-			<Image className='project-head' alt='edit' src='../image/projects/PersonAPI/edit.JPG' thumbnail/>
+			<Image className='project-head' alt='edit' src='../image/projects/personAPI/edit.JPG' thumbnail/>
 			<h5><strong>Delete</strong></h5>
 			<h5>- DELETE <code>/person/:id</code>  // Delete an exist person</h5>
 			<p>User will be able to delete a new person with delete button. A delete modal will pop up for confirm delete action.</p>
-			<Image className='project-head' alt='delete' src='../image/projects/PersonAPI/delete.JPG' thumbnail/>
+			<Image className='project-head' alt='delete' src='../image/projects/personAPI/delete.JPG' thumbnail/>
 		</div>
 
 		<div className='container-fluid'>
